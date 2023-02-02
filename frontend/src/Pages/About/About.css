@@ -1,0 +1,43 @@
+/* Injection de la bannière et d'un filtre de luminosité  */
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-top: 40%;
+  padding-bottom: 9vw;
+}
+.about__banner--container {
+  background-image: url(../../img/head_about.webp);
+  background-size: cover;
+  padding: 4em 1em 1em 1em;
+  display: flex;
+  width: 100%;
+  /* height: 19vh; */
+  /* align-items: center; */
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.accordion-about-container {
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+@media screen and (min-width: 375px) {
+  .about {
+    padding-top: 32%;
+  }
+}
+/* Utilisation de flexbox */
+@media screen and (min-width: 768px) {
+  .accordion-about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+}

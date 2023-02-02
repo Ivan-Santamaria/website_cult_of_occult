@@ -1,0 +1,36 @@
+.footer__dispay {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.footer {
+  position: relative;
+  z-index: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 1em;
+}
+.logo-footer {
+  filter: brightness(4.5);
+  height: 9em;
+}
+.links-to-social-media {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  color: white;
+}
+.links-to-social-media a {
+  color: white;
+}
+.links-to-social-media a:visited {
+  color: white;
+}
+.copyrights__container {
+  color: white;
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}

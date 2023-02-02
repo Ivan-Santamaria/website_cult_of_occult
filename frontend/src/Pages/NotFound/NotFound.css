@@ -1,0 +1,85 @@
+/*! 404 */
+.notfound h1 {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 142.6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  margin: auto;
+  filter: drop-shadow(2px 4px 6px grey);
+}
+.notfound {
+  position: relative;
+  z-index: 1;
+  min-height: 123vh;
+  padding-top: 1rem;
+  background-image: url(../../img/cult_of_occult_background.jpeg);
+  filter: hue-rotate(323deg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*! Oups! La Page que vous demandez n'existe pas */
+.notfound h2 {
+  font-size: 18px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin: auto;
+  width: 62%;
+  margin-bottom: 133px;
+  margin-top: 11px;
+  filter: drop-shadow(2px 4px 6px grey);
+}
+
+/*! Retourner sur la page d'acceuil */
+.to-home-page {
+  font-size: 14px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+
+  color: white;
+  filter: drop-shadow(2px 4px 6px lightgrey);
+  margin-bottom: 25vh;
+}
+.to-home-page a:visited {
+  color: black;
+}
+
+/* Média query */
+
+@media screen and (min-width: 768px) {
+  .notfound p {
+    font-size: 36px;
+  }
+
+  .notfound h1 {
+    font-size: 288px;
+  }
+
+  .to-home-page {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .notfound p {
+    margin-bottom: 100px;
+  }
+}
