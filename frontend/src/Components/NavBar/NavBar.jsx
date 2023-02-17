@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import Logo from "../../img/cult_of_occult_mandala_alt.jpeg";
+import { FaBandcamp } from "react-icons/fa";
 import NameLogo from "../../img/cult_of_occult_banner.png";
 import { useState } from "react";
 
@@ -43,7 +44,7 @@ export default function NavBar() {
               href="https://cultofoccult.bandcamp.com/merch"
               className="navbar__link"
             >
-              Music & Store
+              Music Store <FaBandcamp />
             </a>
           </li>
           <li className="navbar__item slideInDown-4">

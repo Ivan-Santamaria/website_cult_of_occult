@@ -1,7 +1,7 @@
 // Importation de Link depuis react-router-dom
 import { Link } from "react-router-dom";
 // import "./Header.css";
-import Logo from "../../img/cult_of_occult_banner.png";
+// import Logo from "../../img/cult_of_occult_banner.png";
 import { FaBandcamp, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import "./Footer.css";
 
@@ -9,16 +9,16 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-display">
-        <div className="margin-top-bottom">
-          {/* Renvoi vers la page d'acceuil */}
-          <Link to="/" className="link link-footer">
+        {/* <div className="margin-top-bottom"> */}
+        {/* Renvoi vers la page d'acceuil */}
+        {/* <Link to="/" className="link link-footer">
             <img
               src={Logo}
               alt="Logo de pied de page du groupe Cult Of Occult"
               className="logo-footer"
             />
-          </Link>
-        </div>
+          </Link> */}
+        {/* </div> */}
         <div className="links-to-social-media">
           <div className="link-to-social-media-bandcamp">
             <Link

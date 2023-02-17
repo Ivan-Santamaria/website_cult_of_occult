@@ -1,14 +1,18 @@
 .navbar__logomandala--container {
   display: flex;
+  flex: 1;
 }
 .navbar__logobandname--container {
   display: flex;
-  /* flex: 1; */
+  width: 25em;
+  flex: 1;
 }
 .navbar__links--container {
   display: flex;
+  flex: 1;
   align-items: center;
   filter: brightness(4);
+  justify-content: flex-end;
 }
 .logo-navbar--mandala {
   width: 15vh;
@@ -18,8 +22,8 @@
 .logo-navbar--name {
   filter: invert(1);
   width: 64vh;
-  height: 15vh;
-  padding-left: 3em;
+  height: 20vh;
+  /* padding-left: 3em; */
 }
 
 .navbar {
@@ -43,10 +47,26 @@
   font-weight: 600;
 }
 .navbar__link {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   z-index: 110;
   padding: 0 0.3rem;
   color: inherit;
 }
+.navbar__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__item::before {
+  content: "|";
+}
+.navbar__item:first-child:before {
+  display: none;
+}
+
 .navbar__burger {
   width: 40px;
   height: 40px;
@@ -55,19 +75,17 @@
   color: inherit;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1367px) {
   .logo-navbar--name {
     filter: invert(1);
     padding-left: 0;
-    width: 25vh;
-    height: 15vh;
   }
   .navbar__logobandname--container {
+    flex: 1;
     padding-left: 25%;
   }
   .navbar {
     padding-top: 0.5rem;
-
     padding-right: 0em;
     padding-bottom: 0.5em;
   }
@@ -87,7 +105,7 @@
     z-index: 10000;
   }
   .show-nav .navbar__links {
-    width: 100vw;
+    width: 50vw;
     top: 1px;
     right: 1px;
     z-index: 10000;
@@ -95,6 +113,13 @@
     filter: opacity(0.92);
     right: 0;
     visibility: visible;
+  }
+  .navbar__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar__item::before {
+    display: none;
   }
   .navbar__item::after {
     content: "";
@@ -111,9 +136,8 @@
   }
 
   .navbar__link {
-    display: block;
     padding: 1.5rem;
-    font-size: 5vw;
+    font-size: 3vw;
     z-index: 10000;
   }
 
@@ -196,14 +220,30 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .show-nav .navbar__links {
+    width: 80vw;
+  }
+  .navbar__logobandname--container {
+    flex: 1 1;
+    padding-left: 25%;
+  }
+  /* .show-nav .navbar__links {
+    width: 100vw;
+  } */
   .navbar__logobandname--container {
     display: flex;
     flex: 1 1;
     padding-left: 20%;
   }
+  .navbar__logomandala--container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 424px) {
+  .show-nav .navbar__links {
+    width: 100vw;
+  }
   .navbar__logobandname--container {
     padding-left: 1em;
   }
@@ -220,8 +260,5 @@
 @media screen and (max-width: 374px) {
   .navbar__logobandname--container {
     padding-left: 1em;
-  }
-  .navbar__logomandala--container {
-    display: none;
   }
 }

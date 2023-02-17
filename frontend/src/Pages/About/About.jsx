@@ -1,7 +1,7 @@
 // Importation de la banier et de l'accordéon
 // Importation du titre
 // Importation du css
-import { Accordion, Banner } from "../../Routes/ComponentsRoutes";
+import { Accordion, Banner, Cards } from "../../Routes/ComponentsRoutes";
 // import { DynamicTitle } from "../../components/DynamicTitle/DynamicTitle.jsx";
 import "./About.css";
 
@@ -25,6 +25,10 @@ export default function About() {
         {aboutData.map(({ title, content }) => (
           <Accordion key={title} title={title} content={content} />
         ))}
+      </div>
+      <div className="discography--container">
+        <h2 className="discography--title">Discography</h2>
+        <Cards />
       </div>
     </main>
   );

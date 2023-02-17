@@ -2,7 +2,12 @@
 .about {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-image: url(../../img/redlight_background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(1.2);
+  /* background-color: black; */
   padding-top: 40%;
   padding-bottom: 9vw;
 }
@@ -16,6 +21,8 @@
   /* align-items: center; */
   justify-content: flex-start;
   flex-direction: column;
+  border-radius: 10px;
+  filter: drop-shadow(3em -1em 1em black);
 }
 
 .accordion-about-container {
@@ -24,7 +31,10 @@
 }
 @media screen and (min-width: 375px) {
   .about {
-    padding-top: 32%;
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+    padding-top: 35vw;
+    padding-bottom: 2vw;
   }
 }
 /* Utilisation de flexbox */
