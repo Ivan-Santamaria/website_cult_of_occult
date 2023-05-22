@@ -1,0 +1,18 @@
+.location {
+  color: #ff6060;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.location-container {
+  margin-bottom: 10px;
+}
+
+/* Media query */
+@media screen and (min-width: 768px) {
+  .location {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

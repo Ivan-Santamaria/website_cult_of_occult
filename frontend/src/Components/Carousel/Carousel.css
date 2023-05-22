@@ -1,0 +1,32 @@
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  border-radius: 10px;
+  height: 100vw;
+}
+
+.carousel-container-img {
+  object-fit: cover;
+}
+
+/* Media queries */
+@media (orientation: portrait) and (min-width: 320px) {
+  /* .carousel-container {
+    margin: 0.3em;
+  } */
+}
+@media (orientation: portrait) and (min-width: 768px) {
+  .carousel-container {
+    width: 80vw;
+    height: 80vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .carousel-container {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    width: 25vw;
+    height: 25vw;
+  }
+}

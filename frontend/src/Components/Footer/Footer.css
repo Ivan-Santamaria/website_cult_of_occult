@@ -7,7 +7,7 @@
 .footer {
   /* position: relative; */
   z-index: 0;
-  background-color: black;
+  /* background-color: #0a0a0a; */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -24,17 +24,17 @@
 .links-to-social-media {
   display: flex;
   justify-content: space-evenly;
-  font-size: 2em;
-  color: white;
+  font-size: 2.5rem;
+  color: #f0f0f0;
 }
 .links-to-social-media a {
-  color: white;
+  color: #f0f0f0;
 }
 .links-to-social-media a:visited {
-  color: white;
+  color: #f0f0f0;
 }
 .copyrights__container {
-  color: white;
+  color: #f0f0f0;
   display: flex;
   padding-top: 1em;
   padding-bottom: 0.5em;

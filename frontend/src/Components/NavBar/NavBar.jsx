@@ -49,7 +49,7 @@ export default function NavBar() {
           </li>
           <li className="navbar__item slideInDown-4">
             <a href="/about" className="navbar__link">
-              About Us
+              Discography
             </a>
           </li>
           <li className="navbar__item slideInDown-5">

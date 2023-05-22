@@ -1,5 +1,5 @@
 import { NavBar, Footer, ScrollToTop } from "./Routes/ComponentsRoutes.jsx";
-import { About, NotFound } from "./Routes/PagesRoutes.jsx";
+import { About, NotFound, Album, Contact } from "./Routes/PagesRoutes.jsx";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -121,8 +121,10 @@ function App() {
         </p>
       </main> */}
       <Routes>
-        <Route path="about" element={<About />} />s
+        <Route path="about" element={<About />} />
+        <Route path="discography/:id" element={<Album />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
       <ScrollToTop />
       <Footer />

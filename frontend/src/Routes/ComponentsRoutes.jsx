@@ -4,3 +4,8 @@ export { default as Accordion } from "../Components/Accordion/Accordion";
 export { default as Cards } from "../Components/Cards/Cards";
 export { default as Footer } from "../Components/Footer/Footer";
 export { default as ScrollToTop } from "../Components/ScrollToTop/ScrollToTop";
+export { default as AlbumTitle } from "../Components/AlbumTitle/AlbumTitle";
+export { default as Carousel } from "../Components/Carousel/Carousel";
+export { default as Location } from "../Components/Location/Location";
+export { default as AlbumSongs } from "../Components/AlbumSongs/AlbumSongs";
+export { default as BuyAlbum } from "../Components/BuyAlbum/BuyAlbum";

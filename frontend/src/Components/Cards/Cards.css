@@ -1,3 +1,8 @@
+.div-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .cards {
   background-image: linear-gradient(
     180deg,
@@ -10,7 +15,8 @@
   margin: 0;
   margin-bottom: 22px;
   border-radius: 10px;
-  height: 40vh;
+  height: 18em;
+  width: 18em;
   list-style: none;
   display: flex;
   align-items: flex-end;
@@ -37,7 +43,7 @@
 .links {
   font-size: 18px;
   font-weight: 500;
-  color: white;
+  color: #f0f0f0;
   text-align: start;
   text-decoration: none;
 }
@@ -58,32 +64,32 @@
 
 /* Media query */
 
-@media screen and (min-width: 768px) {
+@media (orientation: portrait) and (min-width: 768px) {
   .div-cards {
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
   }
-
+}
+@media (orientation: landscape) and (min-width: 768px) {
   .links {
-    width: 49%;
-  }
-  .card-home {
-    height: 240px;
+    font-size: 16px;
   }
 }
-
 @media screen and (min-width: 1024px) {
-  .links {
-    width: 26%;
-  }
   .li {
-    width: 100%; /* Les noms des appartements reprennent la largeur maximale */
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    height: 33vh;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .card-home {
-    height: 353px;
+@media screen and (min-width: 2560px) {
+  .card {
+    height: 53vh;
   }
 }

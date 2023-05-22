@@ -1,176 +1,186 @@
 [
   {
-    "id": "ruin090421",
+    "id": "ruin",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/ruin",
     "title": "Ruin",
     "cover": "https://f4.bcbits.com/img/a2039861910_10.jpg",
     "artwork": "Calvaire Drach",
     "pictures": ["https://f4.bcbits.com/img/a2039861910_10.jpg"],
     "description": "A nearly 22 minutes nightmare. Enjoy. Released by the nasty Music Fear Satan Records.",
-    "songs": ["1.Ruin", "2.nuiRe"],
+    "songs": ["Ruin", "nuiRe"],
     "label": {
       "name": "Music Fear Satan Records",
       "picture": "https://i.discogs.com/HB0m8ib5fg-mt_HEfkxlJI7u4j8Pb21yNeQ_FnZD40c/rs:fit/g:sm/q:90/h:85/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1NjIy/Mi0xMjczMTU1NTA4/LmpwZWc.jpeg"
     },
-    "Release": "9 april 2021",
+    "release": "9 april 2021",
     "tags": ["Doom", "Sludge"]
   },
   {
-    "id": "antilife010618",
+    "id": "antilife",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/anti-life-2",
     "title": "Anti Life",
     "cover": "https://f4.bcbits.com/img/a0210801689_10.jpg",
     "artwork": "Abomination Imagery",
     "pictures": ["https://f4.bcbits.com/img/a0210801689_10.jpg"],
     "description": "ANTILIFE (4th album) Released by the nasty Music Fear Satan Records.",
-    "songs": ["1.AL", "2.NI ", "3.TF ", "4.IE "],
+    "songs": ["AL", "NI", "TF", "IE"],
     "label": {
       "name": "Music Fear Satan Records",
       "picture": "https://i.discogs.com/HB0m8ib5fg-mt_HEfkxlJI7u4j8Pb21yNeQ_FnZD40c/rs:fit/g:sm/q:90/h:85/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1NjIy/Mi0xMjczMTU1NTA4/LmpwZWc.jpeg"
     },
-    "Release": "1 june 2018",
+    "release": "1 june 2018",
     "tags": ["Doom", "Sludge"]
   },
   {
-    "id": "splitwithgrimvandoom150317",
+    "id": "splitwithgrimvandoom",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/split-with-grim-van-doom",
     "title": "Split With Grim Van Doom",
     "cover": "https://f4.bcbits.com/img/a0898232008_10.jpg",
     "pictures": ["https://f4.bcbits.com/img/a0898232008_10.jpg"],
     "description": "The split album by the sludge bands Cult Of Occult and Grim Van Doom starkly contrast the two very different approaches that the two bands bring to the same genre. But, if anything, that contrast grabs the listener. Cult Of Occult’s half of the album is one, twenty-two minute long track titled “Black Sea”. It rumbles like a distant demon patiently clawing its way out from hell, one massive handful of earth at a time. Plump, earthy bass tones, ominous, cymbal-heavy drumming, hellishly guttural vocals and filthy guitar distortion are set to a tempo that makes Sleep look like a grindcore band. All of these elements remain constant throughout the twenty-two minutes of “Black Sea”, giving the song an endless, trance-inducing feel. The half of the album given to German quarter Grim Van Doom is rather different. Containing three songs and a brief interlude, Grim Van Doom’s side of the album is like a punch in the face from a spiked, steel gauntlet. While all three song’s on Grim Van Doom’s side of the album cross over the five minute mark, there is still a feeling of very little fat on them; they are all lean, brutish works of harsh sludge that churn your stomach and make the marrow of your bones tremble. Pungent tones grate against your eardrums as they doll out riffs that sound as if they had been written by someone who had spent the last two decades fuming at past transgressions and plotting revenge. Having the music of these two different bands stacked side by side is an effective way of exaggerating the qualities of both. Both Cult Of Occult and Grim Van Doom create music that is firmly within the sludge metal sphere, so there is enough similarity for coherence. However, while each band grabs sludge by the throat, they do so from disparate angels. Cult Of Occult’s slithering journey through the abyss brings out the pounding, martial energy of Grim Van Doom, who in turn make the hellish sounds Cult Of Occult that much more vivid.( 'the sludgelord' )",
     "songs": [
-      "1.Cult of Occult - Black Sea ",
-      "2.Grim van Doom - Crimson ",
-      "3.Grim van Doom - Interlude",
-      "4.Grim van Doom - Rust ",
-      "5.Grim van Doom - Azure "
+      "Cult of Occult - Black Sea",
+      "Grim van Doom - Crimson",
+      "Grim van Doom - Interlude",
+      "Grim van Doom - Rust",
+      "Grim van Doom - Azure"
     ],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": "15 March 2017",
+    "release": "15 March 2017",
     "tags": ["Doom", "Sludge"]
   },
   {
-    "id": "fivedegreesofinsanity151015",
+    "id": "fivedegreesofinsanity",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/five-degrees-of-insanity",
     "title": "Five Degrees Of Insanity",
     "cover": "https://f4.bcbits.com/img/a3814932014_10.jpg",
     "artwork": "",
     "pictures": ["https://f4.bcbits.com/img/a3814932014_10.jpg"],
     "description": "Five Degrees of Insanity is our third album. And the most extreme.",
     "songs": [
-      "1.Alcoholic",
-      "2.Nihilistic",
-      "3.Misanthropic",
-      "4.Psychotic",
-      "5.Satanic"
+      "Alcoholic",
+      "Nihilistic",
+      "Misanthropic",
+      "Psychotic",
+      "Satanic"
     ],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": "15 October 2015",
+    "release": "15 October 2015",
     "tags": ["Doom", "Sludge"]
   },
   {
-    "id": "hicestdomusdiaboli220613",
+    "id": "hicestdomusdiaboli",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/hic-est-domus-diaboli",
     "title": "HIC EST DOMUS DIABOLI",
     "cover": "https://f4.bcbits.com/img/a3387200280_16.jpg",
     "artwork": "",
     "pictures": ["https://f4.bcbits.com/img/a3387200280_16.jpg"],
     "description": "HIC EST DOMUS DIABOLI (2nd album). Concealed from the view of the moribund mass of humanity, hidden in the darkness of the gates of Hell, waiting to spread the evil sound of the extermination of life is the most powerful and misanthropic force. Fed by hatred, loudness and alcohol, the four headed monster of Apocalypse will destroy everything on its way with its unwavering wall of sound. Like the scream of Satan himself the fury of the troopers of doom is deafening, intoxicating and damned addicting. Feel the ethylic vapor impregnating the audience, be conquered by the slow devastating groove, chant the name of Lucifer, dance with us on heavy riffing and worship the soundtrack of the end of days. CULT OF OCCULT plays for black masses, sacrifices, satanic rituals, dark ceremonies and unholy meetings. 'A Master-class in evil: Cult of Occult with 'Hic Est Domus Diaboli'- 'Church of the riff', 'Huge magical riffs that slowly progress to different chord sequences but always with lumbering menace.' - 'Black Insect Laughter'",
     "songs": [
-      "1.IN VINO VERITAS",
-      "2.PRO DIABOLUS MORI",
-      "3.OPUS AD ODIO",
-      "4.DCLXVI",
-      "5.REQUIEM",
-      "6.MAGNA ERIPE"
+      "IN VINO VERITAS",
+      "PRO DIABOLUS MORI",
+      "OPUS AD ODIO",
+      "DCLXVI",
+      "REQUIEM",
+      "MAGNA ERIPE"
     ],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": "22 Juin 2013",
+    "release": "22 Juin 2013",
     "tags": ["Doom", "Sludge"]
   },
   {
-    "id": "cultofoccult011111",
+    "id": "cultofoccult",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/cult-of-occult",
     "title": "CULT OF OCCULT",
     "cover": "https://f4.bcbits.com/img/a4265651265_16.jpg",
     "artwork": "",
     "pictures": ["https://f4.bcbits.com/img/a4265651265_16.jpg"],
     "description": "Self-Titled (1st album). Concealed from the view of the moribund mass of humanity, hidden in the darkness of the gates of Hell, waiting to spread the evil sound of the extermination of life is the most powerful and misanthropic force. Fed by hatred, loudness and alcohol, the four headed monster of Apocalypse will destroy everything on its way with its unwavering wall of sound. Like the scream of Satan himself the fury of the troopers of doom is deafening, intoxicating and damned addicting. Feel the ethylic vapor impregnating the audience, be conquered by the slow devastating groove, chant the name of Lucifer, dance with us on heavy riffing and worship the soundtrack of the end of days. CULT OF OCCULT plays for black masses, sacrifices, satanic rituals, dark ceremonies and unholy meetings",
     "songs": [
-      "1.Blurry And Muzzy",
-      "2.I Hate You",
-      "3.Walking In The Desert",
-      "4.Perfect Love",
-      "5.Cult Of Occult"
+      "Blurry And Muzzy",
+      "I Hate You",
+      "Walking In The Desert",
+      "Perfect Love",
+      "Cult Of Occult"
     ],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": "01 Novembre 2011",
+    "release": "01 Novembre 2011",
     "tags": ["Doom", "Sludge"]
   },
   {
-    "id": "rmxfrmhll130213",
+    "id": "rmxfrmhll",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/rmxfrmhll",
     "title": "RMXFRMHLL",
     "cover": "https://f4.bcbits.com/img/a2032268789_16.jpg",
     "artwork": "",
     "pictures": ["https://f4.bcbits.com/img/a2032268789_16.jpg"],
     "description": "RMXFRMHLL is a remix of Cult of Occult's first two albums made by AMANTRA.",
-    "songs": ["1.RMXFRMHLL"],
+    "songs": ["RMXFRMHLL"],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": " 13 février 2015",
+    "release": " 13 février 2015",
     "tags": ["Doom", "Sludge", "Remix", "Amantra"]
   },
   {
-    "id": "thisplanunsanecover181017",
+    "id": "thisplanunsanecover",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/this-plan-unsane-cover",
     "title": "THIS PLAN (Unsane cover)",
     "cover": "https://f4.bcbits.com/img/a3345460996_16.jpg",
     "artwork": "",
     "pictures": ["https://f4.bcbits.com/img/a3345460996_16.jpg"],
     "description": " UNSANE cover - Recorded for Shattered, Flattered & Covered - A Tribute To Unsane double CD.",
-    "songs": ["1.THIS PLAN"],
+    "songs": ["THIS PLAN"],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": "18 Octobre 2017",
+    "release": "18 Octobre 2017",
     "tags": ["Doom", "Sludge", "Cover", "Unsane"]
   },
   {
-    "id": "insidethesunncover080715",
+    "id": "insidethesunncover",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/inside-the-sunn-sleep-cover",
     "title": "INSIDE THE SUNN​)​)​) (Sleep cover)",
     "cover": "https://f4.bcbits.com/img/a2880537314_16.jpg",
     "artwork": "",
     "pictures": ["https://f4.bcbits.com/img/a2880537314_16.jpg"],
     "description": "SLEEP cover - Recorded for CVLT Nation covers compilation of Sleep's Holy Mountain : https://cvltnation.com/sleeps-holy-mountain-the-cvlt-nation-sessions/",
-    "songs": ["1.INSIDE THE SUNN​)​)​)"],
+    "songs": ["INSIDE THE SUNN​)​)​)"],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": "8 juillet 2015",
+    "release": "8 juillet 2015",
     "tags": ["Doom", "Sludge", "Cover", "Sleep"]
   },
   {
-    "id": "childrenofthegravecover060314",
+    "id": "childrenofthegravecover",
+    "bandcamp": "https://cultofoccult.bandcamp.com/album/children-of-the-grave-black-sabbath-cover",
     "title": "CHILDREN OF THE GRAVE (Black Sabbath cover)",
     "cover": "https://f4.bcbits.com/img/a0637385541_16.jpg",
     "artwork": "",
     "pictures": ["https://f4.bcbits.com/img/a0637385541_16.jpg"],
     "description": "Black Sabbath cover - Recorded for CVLT Nation covers compilation of Black Sabbath's Master of Reality: https://www.cvltnation.com/cvlt-nation-sessions-black-sabbath-master-reality/ : not released on CVLT Nation!",
-    "songs": ["1.Children of the Grave"],
+    "songs": ["Children of the Grave"],
     "label": {
       "name": "",
       "picture": ""
     },
-    "Release": "6 Mars 2014",
+    "release": "6 Mars 2014",
     "tags": ["Doom", "Sludge", "Cover", "Black Sabbath"]
   }
 ]

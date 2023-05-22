@@ -1,0 +1,124 @@
+.h1-contact {
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #f0f0f0;
+}
+
+.contact-form {
+  margin: 0rem auto 0;
+  max-width: 100%;
+  padding: 0rem 2rem 0.8rem;
+  background-color: #212020;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+}
+
+.input-contact {
+  padding: 0.3em;
+  padding-left: 0.5em;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+}
+.input-contact::placeholder,
+textarea::placeholder {
+  text-align: center;
+}
+
+.label-contact {
+  color: #f0f0f0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.select-contact,
+.message-contact {
+  color: #0a0a0a;
+  padding: 0.3em;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.button-contact {
+  font-weight: 700;
+  font-size: 2em;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-image: linear-gradient(to top, #0a0a0a, 30%, #a60000);
+  margin: 1rem 3rem 0 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.mail-logo {
+  margin-left: 0.1em;
+}
+
+.button-contact:hover {
+  background-image: linear-gradient(to top, #0a0a0a, 2%, #0e6b0e);
+}
+
+.c-yup {
+  color: #e60707;
+  text-align: center;
+}
+
+.c-yup:before {
+  display: inline;
+  content: "⚠";
+}
+
+@media screen and (min-width: 375px) {
+  .h1-contact {
+    padding-top: 6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .h1-contact {
+    padding-top: 7rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .h1-contact {
+    padding-top: 10rem;
+  }
+
+  .contact-form {
+    margin-left: 14vw;
+    margin-right: 14vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .h1-contact {
+    padding-top: 12rem;
+  }
+  .contact-form {
+    margin-left: 18vw;
+    margin-right: 18vw;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .h1-contact {
+    padding-top: 16rem;
+  }
+}

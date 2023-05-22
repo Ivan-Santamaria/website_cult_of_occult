@@ -18,7 +18,7 @@ export default function About() {
     <main className="body about">
       <div className="about__banner--container">
         {/* Injection de la banière */}
-        <Banner content="About Us" />
+        <Banner content="Discography" />
       </div>
       {/* Utilisation de .map pour boucler la récupation du titre et du contenu, pour un ajout simplifié par les gérants du site  */}
       <div className="accordion-about-container">
@@ -27,7 +27,6 @@ export default function About() {
         ))}
       </div>
       <div className="discography--container">
-        <h2 className="discography--title">Discography</h2>
         <Cards />
       </div>
     </main>
