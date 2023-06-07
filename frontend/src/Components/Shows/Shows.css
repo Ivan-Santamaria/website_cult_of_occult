@@ -1,0 +1,84 @@
+.show-card {
+  color: #f0f0f0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.show-title {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1em;
+  font-size: 2.5em;
+  align-items: center;
+}
+.show-title::before {
+  content: '';
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: url(../../../public/mandala.ico);
+  background-size: cover;
+  filter: contrast(0.95) invert(1) drop-shadow(2px 4px 6px #0a0a0a) opacity(0.2)
+    brightness(2);
+  outline: solid, #0a0a0a;
+  border-radius: 50px;
+}
+.show-title::after {
+  content: '';
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: url(../../../public/cult_of_occult_mandala_alt.ico);
+  background-size: cover;
+  filter: contrast(0.95) drop-shadow(2px 4px 6px #0a0a0a) opacity(0.2)
+    brightness(2);
+  outline: solid, #0a0a0a;
+  border-radius: 50px;
+}
+
+.linktovenue {
+  color: #f0f0f0;
+
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 900;
+}
+.linktovenue:visited {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.showlist {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.showlist::after {
+  display: block;
+  content: ' - ';
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+.showlist__container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  align-items: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .show-card {
+    padding-left: 7em;
+  }
+  .showlist {
+    padding-bottom: 0.9em;
+  }
+  .showlist::after {
+    display: none;
+  }
+}

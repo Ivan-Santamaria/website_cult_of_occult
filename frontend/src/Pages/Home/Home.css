@@ -1,0 +1,33 @@
+.body-home {
+  display: flex;
+}
+.home__banner--container {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .body-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .home__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home__banner--container {
+    background-image: url(../../img/B72_9462-3.JPEG);
+    background-size: cover;
+    display: flex;
+    width: 44%;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    filter: brightness();
+    box-shadow: inset 0px 0px 20px 50px #0a0a0a;
+  }
+}
