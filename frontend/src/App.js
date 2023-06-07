@@ -1,127 +1,23 @@
-import { NavBar, Footer, ScrollToTop } from "./Routes/ComponentsRoutes.jsx";
-import { About, NotFound, Album, Contact } from "./Routes/PagesRoutes.jsx";
-import { Routes, Route } from "react-router-dom";
-import "./App.css";
+import { NavBar, Footer, ScrollToTop } from './Routes/ComponentsRoutes.jsx';
+import {
+  Home,
+  Discography,
+  NotFound,
+  Album,
+  Contact,
+} from './Routes/PagesRoutes.jsx';
+import { Routes, Route } from 'react-router-dom';
+import { DynamicTitle } from '../src/Adds/DynamicTitle.jsx';
+import './App.css';
 
-function App() {
-  // DynamicTitle("Kasa");
+const App = () => {
+  DynamicTitle('Cult Of Occult');
   return (
     <div className="App">
       <NavBar />
-      {/* <Header />  */}
-      {/* <main className="main">
-        <h1 className="title">Acceuil</h1>
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>{" "}
-        <p className="paragraphe">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          molestiae nisi odit, error deserunt culpa. Officiis voluptatem iure,
-          ab delectus quasi quibusdam eos cupiditate minima quo ea quam pariatur
-          error?
-        </p>
-      </main> */}
       <Routes>
-        <Route path="about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="discography" element={<Discography />} />
         <Route path="discography/:id" element={<Album />} />
         <Route path="*" element={<NotFound />} />
         <Route path="contact" element={<Contact />} />
@@ -130,6 +26,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

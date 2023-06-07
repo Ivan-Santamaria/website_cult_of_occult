@@ -32,3 +32,48 @@ a {
 body {
   background-image: linear-gradient(to bottom, #0a0a0a, 96%, #870e0e);
 }
+
+main {
+  padding-top: 15vh;
+}
+
+/* Media queries généraux*/
+@media screen and (max-width: 2560px) {
+  main {
+    padding-top: 20vh;
+  }
+}
+/* Media queries portrait */
+
+@media (orientation: portrait) and (max-width: 1024px) {
+  main {
+    padding-top: 20vh;
+  }
+}
+@media (orientation: portrait) and (max-width: 540px) {
+  main {
+    padding-top: 25vh;
+  }
+}
+@media (orientation: portrait) and (max-width: 414px) {
+  main {
+    padding-top: 16vh;
+  }
+}
+@media (orientation: portrait) and (max-width: 280px) {
+  main {
+    padding-top: 12vh;
+  }
+}
+/* Media queries landscape */
+
+@media (orientation: landscape) and (max-width: 1368px) {
+  main {
+    padding-top: 20vh;
+  }
+}
+@media (orientation: landscape) and (max-width: 1024px) {
+  main {
+    padding-top: 35vh;
+  }
+}

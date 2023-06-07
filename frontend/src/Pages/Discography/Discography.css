@@ -1,0 +1,40 @@
+.body-discography {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  filter: contrast(1.2);
+}
+.discography__banner--container {
+  background-image: url(../../img/head_about.webp);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  filter: drop-shadow(3em -1em 1em black);
+}
+.accordion-discography-container {
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+/* Media queries  généraux*/
+@media screen and (max-width: 2560px) {
+  .discography__banner--container {
+    height: 35vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .discography__banner--container {
+    height: 20vh;
+  }
+}
+/* Media queries  paysage*/
+@media (orientation: landscape) and (max-width: 1024px) {
+  .discography__banner--container {
+    display: none;
+  }
+}

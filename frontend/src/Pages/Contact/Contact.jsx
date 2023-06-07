@@ -6,6 +6,7 @@ import * as yup from "yup";
 import emailjs from "@emailjs/browser";
 import { BiMailSend } from "react-icons/bi";
 import ReCAPTCHA from "react-google-recaptcha";
+import { DynamicTitle } from "../../Adds/DynamicTitle";
 
 const Contact = () => {
   const schema = yup
@@ -40,6 +41,7 @@ const Contact = () => {
       email: data.email,
       subject: data.subject,
       message: data.message,
+      // Ne pas réinitialiser le forulairev
       // reply_to: r.target.reset(),
     });
   };
@@ -57,6 +59,7 @@ const Contact = () => {
     }
   };
 
+  DynamicTitle("Cult Of Occult || Contact");
   return (
     <main className="body contact-body">
       <h1 className="h1-contact">Contact</h1>

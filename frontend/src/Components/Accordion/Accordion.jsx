@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 // Importation des îcones chevron
-import { HiChevronDown, HiChevronUp } from "react-icons/hi";
-import "./Accordion.css";
+import { HiChevronDown, HiChevronUp } from 'react-icons/hi';
+import './Accordion.css';
 
 export default function Accordion(props) {
   // Le contenu de l'accordéon est invisible par défault
@@ -26,10 +26,10 @@ export default function Accordion(props) {
       </div>
       {visible && (
         <div className="accordion-collapse-text-container">
-          {contentType === "string" && (
+          {contentType === 'string' && (
             <p className="collapsed-text">{props.content}</p>
           )}
-          {contentType === "object" &&
+          {contentType === 'object' &&
             props.content.map((item, index) => <div key={index}>{item}</div>)}
         </div>
       )}

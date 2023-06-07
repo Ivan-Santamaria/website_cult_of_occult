@@ -5,7 +5,7 @@
     "title": "Ruin",
     "cover": "https://f4.bcbits.com/img/a2039861910_10.jpg",
     "artwork": "Calvaire Drach",
-    "pictures": ["https://f4.bcbits.com/img/a2039861910_10.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a2039861910_10.jpg"],
     "description": "A nearly 22 minutes nightmare. Enjoy. Released by the nasty Music Fear Satan Records.",
     "songs": ["Ruin", "nuiRe"],
     "label": {
@@ -21,7 +21,7 @@
     "title": "Anti Life",
     "cover": "https://f4.bcbits.com/img/a0210801689_10.jpg",
     "artwork": "Abomination Imagery",
-    "pictures": ["https://f4.bcbits.com/img/a0210801689_10.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a0210801689_10.jpg"],
     "description": "ANTILIFE (4th album) Released by the nasty Music Fear Satan Records.",
     "songs": ["AL", "NI", "TF", "IE"],
     "label": {
@@ -36,7 +36,7 @@
     "bandcamp": "https://cultofoccult.bandcamp.com/album/split-with-grim-van-doom",
     "title": "Split With Grim Van Doom",
     "cover": "https://f4.bcbits.com/img/a0898232008_10.jpg",
-    "pictures": ["https://f4.bcbits.com/img/a0898232008_10.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a0898232008_10.jpg"],
     "description": "The split album by the sludge bands Cult Of Occult and Grim Van Doom starkly contrast the two very different approaches that the two bands bring to the same genre. But, if anything, that contrast grabs the listener. Cult Of Occult’s half of the album is one, twenty-two minute long track titled “Black Sea”. It rumbles like a distant demon patiently clawing its way out from hell, one massive handful of earth at a time. Plump, earthy bass tones, ominous, cymbal-heavy drumming, hellishly guttural vocals and filthy guitar distortion are set to a tempo that makes Sleep look like a grindcore band. All of these elements remain constant throughout the twenty-two minutes of “Black Sea”, giving the song an endless, trance-inducing feel. The half of the album given to German quarter Grim Van Doom is rather different. Containing three songs and a brief interlude, Grim Van Doom’s side of the album is like a punch in the face from a spiked, steel gauntlet. While all three song’s on Grim Van Doom’s side of the album cross over the five minute mark, there is still a feeling of very little fat on them; they are all lean, brutish works of harsh sludge that churn your stomach and make the marrow of your bones tremble. Pungent tones grate against your eardrums as they doll out riffs that sound as if they had been written by someone who had spent the last two decades fuming at past transgressions and plotting revenge. Having the music of these two different bands stacked side by side is an effective way of exaggerating the qualities of both. Both Cult Of Occult and Grim Van Doom create music that is firmly within the sludge metal sphere, so there is enough similarity for coherence. However, while each band grabs sludge by the throat, they do so from disparate angels. Cult Of Occult’s slithering journey through the abyss brings out the pounding, martial energy of Grim Van Doom, who in turn make the hellish sounds Cult Of Occult that much more vivid.( 'the sludgelord' )",
     "songs": [
       "Cult of Occult - Black Sea",
@@ -58,7 +58,7 @@
     "title": "Five Degrees Of Insanity",
     "cover": "https://f4.bcbits.com/img/a3814932014_10.jpg",
     "artwork": "",
-    "pictures": ["https://f4.bcbits.com/img/a3814932014_10.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a3814932014_10.jpg"],
     "description": "Five Degrees of Insanity is our third album. And the most extreme.",
     "songs": [
       "Alcoholic",
@@ -80,7 +80,7 @@
     "title": "HIC EST DOMUS DIABOLI",
     "cover": "https://f4.bcbits.com/img/a3387200280_16.jpg",
     "artwork": "",
-    "pictures": ["https://f4.bcbits.com/img/a3387200280_16.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a3387200280_16.jpg"],
     "description": "HIC EST DOMUS DIABOLI (2nd album). Concealed from the view of the moribund mass of humanity, hidden in the darkness of the gates of Hell, waiting to spread the evil sound of the extermination of life is the most powerful and misanthropic force. Fed by hatred, loudness and alcohol, the four headed monster of Apocalypse will destroy everything on its way with its unwavering wall of sound. Like the scream of Satan himself the fury of the troopers of doom is deafening, intoxicating and damned addicting. Feel the ethylic vapor impregnating the audience, be conquered by the slow devastating groove, chant the name of Lucifer, dance with us on heavy riffing and worship the soundtrack of the end of days. CULT OF OCCULT plays for black masses, sacrifices, satanic rituals, dark ceremonies and unholy meetings. 'A Master-class in evil: Cult of Occult with 'Hic Est Domus Diaboli'- 'Church of the riff', 'Huge magical riffs that slowly progress to different chord sequences but always with lumbering menace.' - 'Black Insect Laughter'",
     "songs": [
       "IN VINO VERITAS",
@@ -103,7 +103,7 @@
     "title": "CULT OF OCCULT",
     "cover": "https://f4.bcbits.com/img/a4265651265_16.jpg",
     "artwork": "",
-    "pictures": ["https://f4.bcbits.com/img/a4265651265_16.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a4265651265_16.jpg"],
     "description": "Self-Titled (1st album). Concealed from the view of the moribund mass of humanity, hidden in the darkness of the gates of Hell, waiting to spread the evil sound of the extermination of life is the most powerful and misanthropic force. Fed by hatred, loudness and alcohol, the four headed monster of Apocalypse will destroy everything on its way with its unwavering wall of sound. Like the scream of Satan himself the fury of the troopers of doom is deafening, intoxicating and damned addicting. Feel the ethylic vapor impregnating the audience, be conquered by the slow devastating groove, chant the name of Lucifer, dance with us on heavy riffing and worship the soundtrack of the end of days. CULT OF OCCULT plays for black masses, sacrifices, satanic rituals, dark ceremonies and unholy meetings",
     "songs": [
       "Blurry And Muzzy",
@@ -125,7 +125,7 @@
     "title": "RMXFRMHLL",
     "cover": "https://f4.bcbits.com/img/a2032268789_16.jpg",
     "artwork": "",
-    "pictures": ["https://f4.bcbits.com/img/a2032268789_16.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a2032268789_16.jpg"],
     "description": "RMXFRMHLL is a remix of Cult of Occult's first two albums made by AMANTRA.",
     "songs": ["RMXFRMHLL"],
     "label": {
@@ -141,7 +141,7 @@
     "title": "THIS PLAN (Unsane cover)",
     "cover": "https://f4.bcbits.com/img/a3345460996_16.jpg",
     "artwork": "",
-    "pictures": ["https://f4.bcbits.com/img/a3345460996_16.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a3345460996_16.jpg"],
     "description": " UNSANE cover - Recorded for Shattered, Flattered & Covered - A Tribute To Unsane double CD.",
     "songs": ["THIS PLAN"],
     "label": {
@@ -157,7 +157,7 @@
     "title": "INSIDE THE SUNN​)​)​) (Sleep cover)",
     "cover": "https://f4.bcbits.com/img/a2880537314_16.jpg",
     "artwork": "",
-    "pictures": ["https://f4.bcbits.com/img/a2880537314_16.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a2880537314_16.jpg"],
     "description": "SLEEP cover - Recorded for CVLT Nation covers compilation of Sleep's Holy Mountain : https://cvltnation.com/sleeps-holy-mountain-the-cvlt-nation-sessions/",
     "songs": ["INSIDE THE SUNN​)​)​)"],
     "label": {
@@ -173,7 +173,7 @@
     "title": "CHILDREN OF THE GRAVE (Black Sabbath cover)",
     "cover": "https://f4.bcbits.com/img/a0637385541_16.jpg",
     "artwork": "",
-    "pictures": ["https://f4.bcbits.com/img/a0637385541_16.jpg"],
+    "imageUrl": ["https://f4.bcbits.com/img/a0637385541_16.jpg"],
     "description": "Black Sabbath cover - Recorded for CVLT Nation covers compilation of Black Sabbath's Master of Reality: https://www.cvltnation.com/cvlt-nation-sessions-black-sabbath-master-reality/ : not released on CVLT Nation!",
     "songs": ["Children of the Grave"],
     "label": {

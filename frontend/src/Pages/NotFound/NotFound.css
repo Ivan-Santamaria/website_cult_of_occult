@@ -1,5 +1,5 @@
 /*! 404 */
-.notfound h1 {
+.body-notfound h1 {
   left: 0%;
   right: 0%;
   top: 0%;
@@ -16,7 +16,7 @@
   filter: drop-shadow(2px 4px 6px grey);
 }
 
-.notfound {
+.body-notfound {
   position: relative;
   z-index: 1;
   min-height: 123vh;
@@ -31,7 +31,7 @@
 }
 
 /*! Oups! La Page que vous demandez n'existe pas */
-.notfound h2 {
+.body-notfound h2 {
   font-size: 18px;
   line-height: 142.6%;
   display: flex;
@@ -65,11 +65,11 @@
 /* Média query */
 
 @media screen and (min-width: 768px) {
-  .notfound p {
+  .body-notfound p {
     font-size: 36px;
   }
 
-  .notfound h1 {
+  .body-notfound h1 {
     font-size: 288px;
   }
 
@@ -79,7 +79,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .notfound p {
+  .body-notfound p {
     margin-bottom: 100px;
   }
 }

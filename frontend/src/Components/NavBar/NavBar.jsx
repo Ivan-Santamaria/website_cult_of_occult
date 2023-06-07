@@ -1,9 +1,9 @@
-import React from "react";
-import "./NavBar.css";
-import Logo from "../../img/cult_of_occult_mandala_alt.jpeg";
-import { FaBandcamp } from "react-icons/fa";
-import NameLogo from "../../img/cult_of_occult_banner.png";
-import { useState } from "react";
+import React from 'react';
+import './NavBar.css';
+import Logo from '../../img/cult_of_occult_mandala_alt.jpeg';
+import { FaBandcamp } from 'react-icons/fa';
+import NameLogo from '../../img/cult_of_occult_banner.png';
+import { useState } from 'react';
 
 export default function NavBar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -12,7 +12,7 @@ export default function NavBar() {
     setShowLinks(!showLinks);
   };
   return (
-    <header className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
+    <header className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
       <div className="navbar__logomandala--container">
         <img
           src={Logo}
@@ -34,11 +34,6 @@ export default function NavBar() {
               Home
             </a>
           </li>
-          <li className="navbar__item slideInDown-2">
-            <a href="/event" className="navbar__link">
-              Event
-            </a>
-          </li>
           <li className="navbar__item slideInDown-3">
             <a
               href="https://cultofoccult.bandcamp.com/merch"
@@ -48,7 +43,7 @@ export default function NavBar() {
             </a>
           </li>
           <li className="navbar__item slideInDown-4">
-            <a href="/about" className="navbar__link">
+            <a href="/discography" className="navbar__link">
               Discography
             </a>
           </li>
