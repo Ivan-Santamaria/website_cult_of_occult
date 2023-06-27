@@ -1,7 +1,4 @@
-// Importaion du module password-validator
 const passwordValidator = require('password-validator');
-
-// Creation d'un schéma
 const passwordSchema = new passwordValidator()
   .is()
   .min(8, ['8 caractères minimum'])
@@ -23,9 +20,6 @@ const passwordSchema = new passwordValidator()
     'Mot de passe interdit'
   );
 
-// Exportation du schéma de mot de passe
-// Si t'utilisateurs respecte les contidtions alors sont compte sera enregistré sur la BDD
-// Sinon sont mot de passe sera refusé
 module.exports = (req, res, next) => {
   if (passwordSchema.validate(req.body.password)) {
     next();

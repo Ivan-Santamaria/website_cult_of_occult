@@ -1,43 +1,54 @@
 import { Navigate, useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import {
   AlbumTitle,
   AlbumSongs,
   BuyAlbum,
-  Carousel,
 } from '../../Routes/ComponentsRoutes';
 import { DynamicTitle } from '../../Adds/DynamicTitle';
 import './Album.css';
 
 export default function Album() {
-  // Utilisation de useParams afin de récupérer les paramètres dans l'URL
-  let params = useParams();
-  // Récupération des logements dans le fichier json
-  const albums = require('../../Data/AlbumInformation.json');
+  const { id } = useParams();
+  const [albumDetail, setAlbumDetail] = useState([]);
+  useEffect(() => {
+    fetch(`http://localhost:3000/api/albums/${id}`)
+      .then((response) => {
+        return response.json();
+      })
+      .then((json) => setAlbumDetail(json))
+      .catch((error) => console.error(error));
+  }, [id]);
 
-  // Utilisation de .find() pour trouver l'information désirée dans le fichier json
-  // Utilisation de params pour cibler la recherche avec l'id correspondant
-  const album = albums.find((x) => x.id === params.id);
+  // if (!albumDetailId) {
+  //   console.log('adieu');
+  //   return <Navigate to="/notfound" />;
+  // }
 
-  // Si aucun élément correspondant n'est trouvé => page 404 avec Navigate
-  if (!album) {
-    return <Navigate to="/notfound" />;
-  }
-  // Récupération du nom donné à l'annonce, et injection dans le titre de l'onglet.
-  DynamicTitle('Cult Of Occult || ' + album.title);
+  DynamicTitle('Cult Of Occult || ' + albumDetail.albumName);
   return (
     <main className="body body-album">
-      {' '}
-      {/* Récupération des images de l'annonce */}
-      <Carousel pictures={album.imageUrl} />
+      <div className="carousel-container">
+        <img
+          className="carousel-container-img"
+          alt={
+            "Artwork de l'album " +
+            albumDetail.albumName +
+            ' par Cult Of Occult'
+          }
+          src={albumDetail.imageUrl}
+          key={albumDetail.albumName}
+        />
+        )
+      </div>
       <div className="album-informations">
-        {' '}
-        <AlbumTitle title={album.title} />{' '}
+        <AlbumTitle title={albumDetail.albumName} />
         <ol className="album-songs">
-          {album.songs.map((song) => (
+          {albumDetail?.songs?.map((song) => (
             <AlbumSongs title={song} key={song} />
           ))}
         </ol>
-        <BuyAlbum title={album.bandcamp} />
+        <BuyAlbum title={albumDetail.bandcamp} />
       </div>
     </main>
   );

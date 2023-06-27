@@ -15,7 +15,7 @@ export default function Discography() {
         {aboutData.map(({ title, content }) => (
           <Accordion key={title} title={title} content={content} />
         ))}
-      </div>{' '}
+      </div>
       <Cards />
     </main>
   );

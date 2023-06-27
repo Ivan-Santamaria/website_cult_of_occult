@@ -1,23 +1,35 @@
-// Importation de link a partir de react router dom
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import './Cards.css';
 
 export default function Cards(props) {
-  // Importation des données de logements sur le fichier .json
-  const discography = require('../../Data/AlbumInformation.json');
+  //? ! En cas d'erreur fetch !
+  // const discography = require('../../Data/AlbumInformation.json');
+  //? ! En cas d'erreur fetch !
+
+  const [discography, setDiscography] = useState([]);
+  useEffect(() => {
+    fetch('http://localhost:3000/api/albums/')
+      .then((response) => response.json())
+      .then((json) => setDiscography(json))
+      .catch((error) => console.error(error));
+  }, []);
 
   return (
     <div className="div-cards">
-      {/* bouclage avec .map() pour afficher les albums grâce a l'id
-      ainsi que la photo de couverture de l'album  et son titre */}
       {discography.map((album) => (
-        <Link className="links" to={'/discography/' + album.id} key={album.id}>
+        <Link
+          className="links"
+          to={'/discography/' + album._id}
+          key={album.albumName}
+          alt={"Artworks de l'album " + album.albumName + ' par Cult Of Occult'}
+        >
           <ul
             className="cards card-home"
             style={{ backgroundImage: `url(${album.imageUrl})` }}
           >
             <li className="li">
-              <div className="text-shadow">{album.title}</div>
+              <div className="text-shadow">{album.albumName}</div>
             </li>
           </ul>
         </Link>
