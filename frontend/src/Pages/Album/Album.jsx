@@ -11,9 +11,9 @@ import './Album.css';
 export default function Album() {
   const { id } = useParams();
   const [albumDetail, setAlbumDetail] = useState([]);
-  useEffect(() => {
-    fetch(`http://localhost:3000/api/albums/${id}`)
-      .then((response) => {
+  useEffect (() => {
+     fetch(`http://localhost:3000/api/albums/${id}`)
+      .then((response) =>  {
         return response.json();
       })
       .then((json) => setAlbumDetail(json))
@@ -39,7 +39,6 @@ export default function Album() {
           src={albumDetail.imageUrl}
           key={albumDetail.albumName}
         />
-        )
       </div>
       <div className="album-informations">
         <AlbumTitle title={albumDetail.albumName} />
